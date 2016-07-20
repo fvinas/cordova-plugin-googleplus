@@ -56,6 +56,7 @@ static void swizzleMethod(Class class, SEL destinationSelector, SEL sourceSelect
         //call super
         return [self identity_application:app openURL:url sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey] annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
     }
+}
 @end
 
 @implementation GooglePlus
